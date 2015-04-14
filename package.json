@@ -1,0 +1,36 @@
+{
+  "name": "hapi-nunjucks-wrapper",
+  "version": "1.2.0",
+  "description": "A simple wrapper to use Nunjucks templates in Hapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab --leaks -c test/tests"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash.defaults": "^3.1.0",
+    "nunjucks": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RodrigoEspinosa/hapi-nunjucks-wrapper.git"
+  },
+  "devDependencies": {
+    "code": "~1.2.1",
+    "hapi": "~8.0.0",
+    "lab": "~5.1.1",
+    "restify": "~2.8.4"
+  },
+  "bugs": {
+    "url": "https://github.com/RodrigoEspinosa/hapi-nunjucks-wrapper/issues"
+  },
+  "homepage": "https://github.com/RodrigoEspinosa/hapi-nunjucks-wrapper",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "keywords": [
+    "hapi",
+    "nunjacks"
+  ]
+}
